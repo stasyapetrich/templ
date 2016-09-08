@@ -180,12 +180,259 @@ header {
 .intro {
     width: 100%;
     height: 600px;
-    background: url(../img/Layer-78.png);
+    background: url(../img/Layer-78.png) no-repeat;
+    background-size: 100% 100%;
 }
 
 .intro-head-txt {
-    
+    width: 940px;
+    height: 467px;
+    color: #f7fdfe;
+    font-size: 44px;
+    font-weight: 800;
+    line-height: 28px;
+    display: table-cell;
+    vertical-align: bottom;
 }
+
+.text-center {
+    text-align: center;
+    width: 940px;
+    display: inline-block;
+    margin-bottom: 30px;
+}
+
+.text-center:before {
+    content: url(../img/Stars.png);
+    position: relative;
+    display: inline-block;
+    height: 12px;
+    width: 12px;
+    top: -6px;
+    right: 15px;
+}
+
+.text-center:after {
+    content: url(../img/Stars.png);
+    position: relative;
+    display: inline-block;
+    height: 12px;
+    width: 12px;
+    top: -6px;
+    left: 14px;
+}
+
+.intro-txt {
+    width: 804px;
+    color: #f7fdfe;
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 28px;
+    text-align: center;
+    margin: auto;
+}
+
+.short-bio {
+    width: 100%;
+}
+
+.main-blue-txt {
+    width: 127px;
+    color: #0ebfdd;
+    font-size: 44px;
+    font-weight: 800;
+    line-height: 28px;
+    text-align: center;
+    padding: 70px 0 30px 0;
+    margin: auto;
+}
+
+.short-txt {
+    width: 805px;
+    color: #45494d;
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 28px;
+    text-align: center;
+    margin: auto;
+    padding-bottom: 70px;
+}
+
+.team {
+    width: 100%;
+    background: #0ebfdd;
+    padding-bottom: 60px;
+}
+
+.team-header {
+    width: 100%;
+    color: #fff;
+    font-size: 44px;
+    font-weight: 800;
+    line-height: 28px;
+    text-align: center;
+    padding: 60px 0 100px 0;
+}
+
+.photos-team {
+    width: 600px;
+    margin: auto;
+    padding-bottom: 80px;
+}
+
+.photos-team > div {
+    display: inline-block;
+    margin-right: 70px;
+    padding-bottom: 20px;
+}
+
+.photos-team > div:nth-child(3n) {
+    margin-right: 0;
+}
+
+.team-member {
+    width: 150px;
+    height: 200px;
+}
+
+.name {
+    width: 100%;
+    text-align: center;
+    color: #f7fdfe;
+    font-size: 18px;
+    font-weight: 800;
+    padding-top: 5px;
+}
+
+.job {
+    width: 100%;
+    text-align: center;
+    color: #f7fdfe;
+    font-style: italic;
+    font-size: 16px;
+}
+
+.work-btn {
+    display: block;
+    height: 40px;
+    width: 180px;
+    margin: auto;
+    border: 1px solid #f9fbfb;
+    border-radius: 19px;
+    text-decoration: none;
+    color: #f7fdfe;
+}
+
+.work-txt {
+    font-size: 14px;
+    text-transform: uppercase;
+    display: table-cell;
+    width: 180px;
+    height: 40px;
+    vertical-align: middle;
+    text-align: center;
+}
+
+.map {
+    width: 100%;
+    height: 600px;
+}
+
+footer {
+    width: 100%;
+    background: #45494d;
+}
+
+.top-footer {
+    padding: 20px 0;
+    border-bottom: 1px solid #8a8d91;
+}
+
+.top-footer > ul, .top-footer > div {
+    display: inline-block;
+    vertical-align: middle;
+}
+
+.foot-nav {
+    width: 230px;
+    margin-right: 560px;
+}
+
+.foot-nav > li {
+    display: inline-block;
+    margin-right: 30px;
+}
+
+.foot-nav > li:last-child {
+    margin-right: 0;
+}
+
+.foot-nav-txt {
+    color: #d7dee4;
+    font-size: 12px;
+    text-transform: uppercase;
+    text-decoration: none;
+}
+
+.soc-down-block {
+    width: 145px;
+    text-align: right;
+}
+
+.soc-down-block > a {
+    display: inline-block;
+    margin-right: 10px;
+}
+
+.soc-down-block > a {
+    margin-right: 0;
+}
+
+.soc-block {
+    width: 40px;
+    height: 40px;
+    border: 1px solid #d7dee4;
+    border-radius: 100px;
+    text-align: center;
+}
+
+.soc-block > span {
+    display: table-cell;
+    vertical-align: middle;
+    height: 40px;
+    width: 40px;
+}
+
+.bottom-footer {
+    padding: 15px 0;
+    text-align: right;
+}
+
+.bottom-footer > a, .bottom-footer > p {
+    display: inline-block;
+    padding-right: 15px;
+}
+
+.bottom-footer > p {
+    padding-right: 0;
+}
+
+.priv-pol, .terms-condit, .copyright {
+    color: #73767a;
+    font-size: 12px;
+    height: 16px;
+    text-decoration: none;
+}
+
+.priv-pol, .terms-condit {
+    border-right: 1px solid #73767a;    
+}
+
+.terms-condit, .copyright {
+    margin-left: 10px;
+}
+
+
 
 
 

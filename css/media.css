@@ -1,0 +1,9 @@
+@media only screen and (max-width: 1023px) and (min-width: 768px) {
+	.content-width {
+		width: 700px;
+	}
+
+	.logo {
+		margin-right: 200px;
+	}
+}
